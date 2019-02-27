@@ -25,10 +25,26 @@
 		}
 	}
 .hometext{
-	padding: 20px;
+padding: 20px;
 color: yellow;
 text-align: center;
 font-family: arial;
+}
+.text{
+font-size:18px;
+font-family: 'Courgette';
+}
+@media (min-width: 544px) 
+{
+.text{font-size:20px;}
+} 
+@media (min-width: 768px)
+{
+  
+}
+@media (min-width: 992px)
+{
+  
 }
 .film {
 	position: relative;
