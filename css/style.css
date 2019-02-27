@@ -24,6 +24,12 @@
 			1000px 100%,0 0;
 		}
 	}
+.im{
+	height:230px;
+}
+.si{
+	height:480px;
+}
 .hometext{
 padding: 25px;
 color: yellow;
@@ -39,6 +45,12 @@ font-family: 'Courgette';
 {
 .text{font-size:20px;}
 #head{padding-top:20px;}
+.im{
+	height:350px;
+}
+.si{
+	height: 560px;
+}
 } 
 @media (min-width: 768px)
 {
