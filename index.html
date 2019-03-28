@@ -130,7 +130,7 @@ $('#site-landing').polygonizr();
 <span style="font-family:'Aclonica';font-size:20px;background: black;" class="p-2" id="timer"></span>
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("April 3, 2019 21:00:00").getTime();
+var countDownDate = new Date("April 2, 2019 14:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -150,15 +150,11 @@ var x = setInterval(function() {
   // Output the result in an element with id="demo"
   document.getElementById("timer").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s TO GO";
-  if (distance > 0&& distance<111600000) {
-    clearInterval(x);
-    document.getElementById("timer").innerHTML = "IT'S TIME TO ROCK";
-  }
     
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "BITIANS ROCKED IT";
+    document.getElementById("timer").innerHTML = "IT'S TIME TO ROCK!";
   }
 }, 1000);
 </script>
@@ -431,13 +427,13 @@ Are you ready to set the stage on fire!
 <h2 class="h2 text-center" style="font-family: 'Aclonica'">GUEST ARTISTS</h2><br><br>
 <div class="row">
           <div class="col-md-4 col-sm-12 block revealOnScroll" data-animation="flipInX" data-timeout="400">
-            <a target="_blank" href="images/guest2.jpg"><img src="images/guest2.jpg" style="width: 100%; height: 100%; cursor: pointer"></a>
+            <a target="_blank" href="images/guest2.jpg"><img src="images/guest2.jpg" class="mb-2" style="width: 100%; height: 100%; cursor: pointer"></a>
           </div>
            <div class="col-md-4 col-sm-12">
-            <a target="_blank" href="images/guest1.jpg"><img src="images/guest1.jpg" style="width: 100%; height: 100%; cursor: pointer"></a>
+            <a target="_blank" href="images/guest1.jpg"><img src="images/guest1.jpg" class="mb-2" style="width: 100%; height: 100%; cursor: pointer"></a>
           </div>
           <div class="col-md-4 col-sm-12">
-            <a target="_blank" href="images/guest3.jpg"><img src="images/guest3.jpg" style="width: 100%; height: 100%; cursor: pointer"></a>
+            <a target="_blank" href="images/guest3.jpg"><img src="images/guest3.jpg" class="mb-2" style="width: 100%; height: 100%; cursor: pointer"></a>
           </div>
         </div>
         
@@ -565,14 +561,14 @@ Are you ready to set the stage on fire!
 <h2 class="h2 text-center" style="font-family: 'Aclonica'">SPONSORS</h2><br><br>
 <div class="container">
    <section class="customer-logos slider">
-      <div class="slide"><img src="images/spon0.jpg" width="100" height="100"></div>
-      <div class="slide"><img src="images/spon1.jpg" width="100" height="100"></div>
-      <div class="slide"><img src="images/spon2.jpg" width="100" height="100"></div>
-      <div class="slide"><img src="images/spon3.jpg" width="100" height="100"></div>
-      <div class="slide"><img src="images/spon4.jpg" width="100" height="100"></div>
-      <div class="slide"><img src="images/spon5.jpg" width="100" height="100"></div>
-      <div class="slide"><img src="images/spon6.jpg" width="100" height="100"></div>
-      <div class="slide"><img src="images/spon7.jpg" width="100" height="100"></div>
+      <div class="slide"><img src="images/spon0.jpg" width="250" height="150"></div>
+      <div class="slide"><img src="images/spon1.jpg" width="250" height="150"></div>
+      <div class="slide"><img src="images/spon2.jpg" width="250" height="150"></div>
+      <div class="slide"><img src="images/spon3.jpeg" width="250" height="150"></div>
+      <div class="slide"><img src="images/spon4.jpeg" width="250" height="150"></div>
+      <div class="slide"><img src="images/spon5.jpg" width="250" height="150"></div>
+      <div class="slide"><img src="images/spon6.jpg" width="250" height="150"></div>
+      <div class="slide"><img src="images/spon7.jpg" width="250" height="150"></div>
    </section>
 </div>
 
@@ -655,15 +651,6 @@ Are you ready to set the stage on fire!
   </div>
 </div>
 </div>
-<div class="col-md-4 col-xs-12">
-  <div class="card mb-4" style="width:100%">
-  <img class="card-img-top" src="images/rupsa.jpeg" alt="Card image">
-  <div class="card-body">
-    <h4 class="card-title">Web Developer</h4>
-    <h5 class="card-text">Rupsa De<br>9831304422</h5>
-  </div>
-</div>
-</div>
 
 <div class="col-md-4 col-xs-12">
   <div class="card mb-4" style="width:100%">
@@ -675,25 +662,17 @@ Are you ready to set the stage on fire!
 </div>
 </div>
 
+<div class="col-md-4 col-xs-0"></div>
 <div class="col-md-4 col-xs-12">
   <div class="card mb-4" style="width:100%">
-  <img class="card-img-top" src="images/anchita.jpg" alt="Card image">
+  <img class="card-img-top" src="images/rupsa.jpeg" alt="Card image">
   <div class="card-body">
-    <h4 class="card-title">Ast. Digital Head</h4>
-    <h5 class="card-text">Anchita Das Sarma<br>BT 1st year</h5>
-  </div>
-</div>
-</div> 
-
-<div class="col-md-4 col-xs-12">
-  <div class="card mb-4" style="width:100%">
-  <img class="card-img-top" src="images/sagnik.jpg" alt="Card image">
-  <div class="card-body">
-    <h4 class="card-title">Ast. Digital Head</h4>
-    <h5 class="card-text">Sagnik Roy<br>BT 1st year</h5>
+    <h4 class="card-title">Web Developer</h4>
+    <h5 class="card-text">Rupsa De<br>9831304422</h5>
   </div>
 </div>
 </div>
+<div class="col-md-4 col-xs-0"></div>
 
 </div>	
 </div>			
@@ -703,17 +682,23 @@ Are you ready to set the stage on fire!
 <h2 class="h2 pb-4" style="font-family: 'Aclonica'">BELOVED ALUMNI</h2>
 <div style="font-family: 'Courgette" class="container-fluid">
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-4">
     <video width="100%" height="300px" controls>
         <source src="bhaskarda.mp4" type="video/mp4">
         Your browser does not support the video tag.
-      </video>Bhaswar Sen,CS(2017)
+      </video>Bhaswar Sen,CS(2016)
   </div>
-  <div class="col-md-6">
+  <div class="col-md-4">
     <video width="100%" height="300px" controls>
         <source src="souravda.mp4" type="video/mp4">
         Your browser does not support the video tag.
-      </video>Sourav Dey,GS(2017)
+      </video>Sourav Dey,GS(2016)
+  </div>
+  <div class="col-md-4">
+    <video width="100%" height="300px" controls>
+        <source src="ashishda.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>Ashish Bhardwaj,GS(2017)
   </div>
 </div>
 </div>
